@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Infinite lookbook variations without the photoshoot costs"
+	subtitle="Transform your fashion marketing with AI-powered virtual try-on technology. Create engaging product catalogs that drive conversions and reduce returns."
+	imageSrc="/generated/image-a-fashion-e-commerce-manager-in-a-modern.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by forward-thinking fashion brands"
+	logoUrls={[
+		'https://cdn.brandfetch.io/everlane.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/allbirds.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/gymshark.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/fashionnova.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
